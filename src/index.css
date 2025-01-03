@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pricing-card {
+    @apply bg-white/5 backdrop-blur-xl rounded-2xl p-8 shadow-xl border border-purple-900/30 flex flex-col;
+  }
+
+  .pricing-content {
+    @apply flex flex-col flex-grow;
+  }
+
+  .pricing-button-container {
+    @apply mt-auto;
+  }
+}
